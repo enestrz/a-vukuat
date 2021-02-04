@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>A-Vukuat</title>
+    <title>A-Vukuat Anasayfa</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,46 +15,99 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+    <!-- Navigation Section -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+            <a class="navbar-brand " href="#"><img src="css/images/logo.png" alt="logo" style="height:48px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <a class="navbar-brand ml-3" href="#"><img src="css/images/logo.png" alt="logo" style="height:48px;"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#">Anasayfa <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/about.html">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Baktığımız Vukuatlar
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item btn-secondary" href="#">Adam pıçaklama</a>
+                            <a class="dropdown-item btn-secondary" href="#">1 lira isteme</a>
+                            <a class="dropdown-item btn-secondary" href="#">Bali ve tiner</a>
+                            <a class="dropdown-item btn-secondary" href="#">Döner bıçaklarıyla dalma</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-        <div class="collapse navbar-collapse mr-3" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link " href="#">Anasayfa <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Hakkımızda</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Baktığımız Vukuatlar
-                    </a>
-                    <div class="dropdown-menu bg-dark " aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item " href="#">Adam pıçaklama</a>
-                        <a class="dropdown-item" href="#">1 lira isteme</a>
-                        <a class="dropdown-item" href="#">Bali ve tiner</a>
-                        <a class="dropdown-item" href="#">Döner bıçaklarıyla dalma</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Hakkımızda</a>
-                </li>
-            </ul>
+        <!-- Content Section -->
+        <div class="jumbotron justify-content-center">
+            <div class="jumbotron">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                    attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.
+                </p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
+            </div>
         </div>
 
 
-    </nav>
+        <!-- Footer Section -->
+        <footer class="footer clearfix bg-light text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Footer text</h5>
 
-    <div class="d-flex justify-content-center">
-        <h1 class="display-4">a-Vukuat bürosuna hoşgeldiniz</h1>
-    </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Footer text</h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                        </p>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class=" bg-dark text-white p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2021 Copyright:
+                <a class="text-white" href="https://enestrz.github.io/">Enes Terzi</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
